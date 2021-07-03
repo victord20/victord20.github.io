@@ -6,12 +6,7 @@ html {
   background: url(https://1.bp.blogspot.com/-j4GQ1pDOzOA/UDJ70bUbAeI/AAAAAAAAAmY/m7QIuXvKvFA/s1600/hd-gerard-joling-wallpaper-met-gerard-joling-in-een-wit-shirt-achtergrond-foto.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
-
-a { 
-  color: black;
-
-}
-
+/* header */
 header img {
   height: 55px;
   padding-left: 20px;
@@ -50,6 +45,7 @@ p {
   
 } 
 
+/* content van index.html */
 .content-container{
 
   width: 400px;
