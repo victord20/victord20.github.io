@@ -73,7 +73,7 @@ p {
 
 @media only screen and (max-width: 480px) and (max-height: 480px) {
   .content-container {
-    padding-left: 40px;
+    padding-left: 20px;
   }
   #home {
     background-size: 480px 388px;
