@@ -1,0 +1,74 @@
+html {
+  background: url(https://1.bp.blogspot.com/-j4GQ1pDOzOA/UDJ70bUbAeI/AAAAAAAAAmY/m7QIuXvKvFA/s1600/hd-gerard-joling-wallpaper-met-gerard-joling-in-een-wit-shirt-achtergrond-foto.jpg) no-repeat center center fixed; 
+  background-size: cover;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+a { 
+  color: black;
+
+}
+
+header img {
+  height: 55px;
+  padding-left: 20px;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  align-items: center;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  padding-right: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  padding-top: 90px;
+  width: 1200px;
+  padding-left: 10px; 
+  
+} 
+
+.content-container{
+
+  width: 400px;
+  padding: 5px;
+  padding-left: 75px;
+  display: flex;
+  flex-direction: row
+
+
+}
+
+#content {
+  display: table-cell;  
+  width: 75%;
+  vertical-align: top;
+  line-height: 25px;
+}
+
+#video { 
+  position: absolute;
+  right: 100px;
+  top: 90px
+
+}
+
