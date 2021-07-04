@@ -1,5 +1,7 @@
 html {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  background: url(https://1.bp.blogspot.com/-j4GQ1pDOzOA/UDJ70bUbAeI/AAAAAAAAAmY/m7QIuXvKvFA/s1600/hd-gerard-joling-wallpaper-met-gerard-joling-in-een-wit-shirt-achtergrond-foto.jpg) no-repeat center center fixed; 
+  background-size: cover;
 }
 
 #home {
@@ -32,7 +34,7 @@ nav span {
   padding-right: 20px;
 }
 
-.flex-container {
+.header-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -71,4 +73,34 @@ p {
 
 }
 
+/* Muziek pagina */
  
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  }
+  th, td {
+  padding: 10px;
+
+  }
+  
+  .flex-container {
+  display: inline-flex;
+  background-color: darkgrey;
+
+  
+}
+
+.flex-container > div {
+background-color: #f1f1f1;
+margin: 15px;
+padding: 20px;
+font-size: 15px;
+width: 200px;
+
+
+}
+
+h4 {
+  text-align: left;
+}
