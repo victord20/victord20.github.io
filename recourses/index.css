@@ -1,25 +1,17 @@
 html {
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-  background: url(https://1.bp.blogspot.com/-j4GQ1pDOzOA/UDJ70bUbAeI/AAAAAAAAAmY/m7QIuXvKvFA/s1600/hd-gerard-joling-wallpaper-met-gerard-joling-in-een-wit-shirt-achtergrond-foto.jpg) no-repeat center center fixed; 
-  background-size: cover;
 }
 
 #home {
   background: url(https://1.bp.blogspot.com/-j4GQ1pDOzOA/UDJ70bUbAeI/AAAAAAAAAmY/m7QIuXvKvFA/s1600/hd-gerard-joling-wallpaper-met-gerard-joling-in-een-wit-shirt-achtergrond-foto.jpg) no-repeat center center fixed; 
   background-size: cover;
 }
+
+
 /* header */
 header img {
   height: 55px;
   padding-left: 20px;
-}
-
-header {
-  width: 100%;
-  position: fixed;
-  z-index: 1;
-  height: 69px;
-  align-items: center;
 }
 
 nav {
@@ -38,14 +30,17 @@ nav span {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  width: 100%;
+  position: absolute;
 }
 
-p {
-  padding-top: 90px;
-  width: 1200px;
-  padding-left: 10px; 
+header {
+  z-index: 1;
+  height: 69px;
+  align-items: center;
+}
+
   
-} 
 
 /* content van index.html */
 .content-container{
@@ -64,6 +59,9 @@ p {
   width: 75%;
   vertical-align: top;
   line-height: 25px;
+  padding-top: 90px;
+  width: 1200px;
+  padding-left: 10px; 
 }
 
 #video { 
@@ -78,6 +76,7 @@ p {
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  background-color: white;
   }
   th, td {
   padding: 10px;
@@ -105,3 +104,66 @@ h4 {
   text-align: left;
 }
 
+
+/* Biografie */
+
+#container {
+  width: 900px;
+  background-color: white;
+  border: 2px solid rgb(99, 97, 97);
+}
+
+#header-biografie {
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  background-color: beige;
+  border-bottom: 1px solid black;
+}
+
+#body {
+  background-color: white;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#profiel {
+  float: left;
+  width: 30%;
+}
+
+#profiel h3 {
+  text-align: center;
+  padding: 0px;
+  background-color: beige;
+  color: black;
+  border: 1px solid black;
+  width: 250px;
+}
+
+#profiel img {
+  margin-left: 25px;
+  border: 3px solid black;
+}
+
+#bio {
+  padding: 10px;
+  float: right;
+  width: 65%;
+}
+
+footer {
+  clear: both;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+p {
+  text-indent: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 5px;
+}
