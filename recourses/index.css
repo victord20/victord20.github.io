@@ -157,6 +157,8 @@ footer {
   background-color: black;
   color: white;
   text-align: right;
+  position: relative;
+  margin-top: 145px;
 }
 
 p {
